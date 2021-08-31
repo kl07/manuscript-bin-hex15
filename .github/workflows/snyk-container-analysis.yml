@@ -10,10 +10,10 @@ name: Snyk Container
 
 on:
   push:
-    branches: [ master ]
+    branches: [ Snyk-Ctnr-Anls-Manuscript ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ master ]
+    branches: [ Snyk-Ctnr-Anls-Manuscript ]
   schedule:
     - cron: '42 0 * * 5'
 
